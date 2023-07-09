@@ -1,0 +1,113 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 155px;
+  height: 30px;
+  position: absolute;
+  top: 81px;
+  left: 165px;
+}
+
+header > img {
+  width: 1134px;
+  height: 1134px;
+  position: absolute;
+  top: -419px;
+  right: -350px;
+}
+
+.top-section {
+  width: 1110px;
+  height: 531px;
+  position: absolute;
+  top: 213px;
+  left: calc(50% - 1110px / 2);
+}
+
+.info {
+  width: 540px;
+  height: 388px;
+  position: absolute;
+  top: calc(50% - 388px / 2);
+  left: 0;
+}
+
+.info h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  color: #333950;
+  margin-bottom: 24px;
+}
+
+.info p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #747b95;
+  margin-bottom: 32px;
+}
+
+button {
+  width: 171px;
+  height: 56px;
+  background-color: #5175ff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+}
+
+.btn-get-started {
+  box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+}
+
+.btn-get-started:hover {
+  cursor: pointer;
+  background-color: #829cff;
+}
+
+.top-section img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bg-pattern-pricing {
+  z-index: 2;
+}
+
+.btm-section {
+  width: 100%;
+  height: 857px;
+  position: absolute;
+  top: 928px;
+}
+
+.dark-section {
+  width: 100%;
+  height: 603px;
+  background-color: #25293a;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-section {
+  width: 1110px;
+  height: 176px;
+  position: absolute;
+  top: 336px;
+  left: calc(50% - 1110px / 2);
+}
+
+.footer-section button {
+  position: absolute;
+  top: calc(50% - 56px / 2);
+  right: 0;
+}
