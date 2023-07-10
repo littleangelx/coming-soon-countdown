@@ -111,3 +111,93 @@
   mix-blend-mode: normal;
   opacity: 0.5;
 }
+
+@media (min-width: 726px) and (max-width: 1200px) {
+  body {
+    height: 2182px;
+  }
+  .container {
+    height: 996px;
+    width: 689px;
+    left: calc(50% - 689px / 2);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .card {
+    position: relative;
+    width: 689px;
+    height: 316px;
+  }
+  .main-card-section {
+    width: 689px;
+    height: 100%;
+    display: flex;
+    padding-left: 48px;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .planType {
+    margin-bottom: 16px;
+  }
+  .planCost {
+    margin-bottom: 0;
+  }
+  .asBodyTextP {
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+  .bodyText {
+    width: 221px;
+    margin-bottom: 16px;
+    margin-right: 100px;
+  }
+  .card button {
+    position: absolute;
+    top: 212px;
+    left: 48px;
+    z-index: 3;
+  }
+  .countdownCards {
+    position: relative;
+    top: -100px;
+  }
+  .countdownCards h1 {
+    text-align: center;
+  }
+  .footer-section button {
+    left: calc(50% - 171px / 2);
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 725px) {
+  .container {
+    width: 327px;
+    height: 1588px;
+    left: calc(50% - 327px / 2);
+    flex-direction: column;
+  }
+  .card {
+    width: 327px;
+    height: 508px;
+  }
+  .countdownCards {
+    width: 327px;
+    left: calc(50% - 327px / 2);
+  }
+  .countdownCards h1 {
+    left: calc(50% - 327px / 2);
+    text-align: center;
+  }
+  .countdownCard {
+    width: 72px;
+    height: 92px;
+  }
+  .figure {
+    font-size: 32px;
+  }
+  .timeUnit {
+    font-size: 12px;
+  }
+}
